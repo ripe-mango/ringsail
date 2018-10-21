@@ -1,3 +1,6 @@
+clear
+clc
+
 %Parameters and Assumptions
 g=9.81; %Gravity m/s
 P_kPa=98.9; %kPa
