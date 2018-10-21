@@ -1,13 +1,16 @@
 clear
 clc
+clc
+
+
 %Parameters and Assumptions
 g=9.81; %Gravity m/s
 P_kPa=98.9; %kPa
 P_Pa=P_kPa*1000; %Pa&Nm
-T_F= 72; %°F
+T_F= 72; %Â°F
 R_air=287; %Nm/kgK
 %Fahrenheit to Celcius 
-T_C=(T_F-32)*(5/9); %°C
+T_C=(T_F-32)*(5/9); %Â°C
 %Celcius to Kelvin
 T_K=T_C+273.15; %K
 %Density of Air (Ideal Gas Law)
